@@ -22,11 +22,11 @@ cxx_compiler_version:
 docker_image:
 - quay.io/condaforge/linux-anvil-aarch64:alma8
 kokkos_arch:
-- VOLTA70
+- BLACKWELL100
 libtorch:
-- '2.10'
+- '2.12'
 mpi:
-- mpich
+- nompi
 mpich:
 - '5'
 openmpi:

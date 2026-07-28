@@ -61,45 +61,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archAMPERE80mpimpich
-            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_hb8e74644
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archAMPERE80mpinompi
-            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h398274cc
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archAMPERE80mpiopenmpi
-            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_he9dab72a
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archAMPERE86mpimpich
             CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h350f4763
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
@@ -139,6 +100,84 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-latest']
             tools_install_dir: ~/miniforge3
+          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archBLACKWELL100mpimpich
+            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h944cd481
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-latest']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archBLACKWELL100mpinompi
+            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h5dc062a2
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-latest']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archBLACKWELL100mpiopenmpi
+            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h0f32791e
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-latest']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archBLACKWELL120mpimpich
+            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h29b37798
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-latest']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archBLACKWELL120mpinompi
+            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_hf405086a
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-latest']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archBLACKWELL120mpiopenmpi
+            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h66f6d926
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-latest']
+            tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archHOPPER90mpimpich
             CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_hf8b49cb6
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
@@ -167,45 +206,6 @@ jobs:
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archHOPPER90mpiopenmpi
             CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h3f333ef6
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archVOLTA70mpimpich
-            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h60c80412
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archVOLTA70mpinompi
-            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h7a923247
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-latest']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_64_cuda_compiler_version12.9kokkos_archVOLTA70mpiopenmpi
-            CONFIG_SHORT: linux_64_cuda_compiler_version12.9kokkos_h39b870eb
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma8
             STORE_BUILD_ARTIFACTS: True
             UPLOAD_PACKAGES: True
@@ -295,45 +295,6 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archAMPERE80mpimpich
-            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_hdfdd0390
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archAMPERE80mpinompi
-            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h6879b5f0
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archAMPERE80mpiopenmpi
-            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h77a210fc
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archAMPERE86mpimpich
             CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_hb106f706
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
@@ -373,6 +334,84 @@ jobs:
             resize_partitions: False
             runs_on: ['ubuntu-24.04-arm']
             tools_install_dir: ~/miniforge3
+          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archBLACKWELL100mpimpich
+            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_ha7304ad4
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-24.04-arm']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archBLACKWELL100mpinompi
+            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_hf4b6fa69
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-24.04-arm']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archBLACKWELL100mpiopenmpi
+            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_ha27338e6
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-24.04-arm']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archBLACKWELL120mpimpich
+            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h4cbdcce1
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-24.04-arm']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archBLACKWELL120mpinompi
+            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_hb0cc0a4a
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-24.04-arm']
+            tools_install_dir: ~/miniforge3
+          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archBLACKWELL120mpiopenmpi
+            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_ha7372743
+            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
+            STORE_BUILD_ARTIFACTS: True
+            UPLOAD_PACKAGES: True
+            build_workspace_dir: build_artifacts
+            docker_run_args: 
+            free_disk_space: max
+            os: ubuntu
+            pagefile_size: 0
+            resize_partitions: False
+            runs_on: ['ubuntu-24.04-arm']
+            tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archHOPPER90mpimpich
             CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h8c80ec76
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
@@ -401,45 +440,6 @@ jobs:
             tools_install_dir: ~/miniforge3
           - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archHOPPER90mpiopenmpi
             CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h65717bdd
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archVOLTA70mpimpich
-            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h3bab9ebf
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archVOLTA70mpinompi
-            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_h38f2c3b3
-            DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
-            STORE_BUILD_ARTIFACTS: True
-            UPLOAD_PACKAGES: True
-            build_workspace_dir: build_artifacts
-            docker_run_args: 
-            free_disk_space: max
-            os: ubuntu
-            pagefile_size: 0
-            resize_partitions: False
-            runs_on: ['ubuntu-24.04-arm']
-            tools_install_dir: ~/miniforge3
-          - CONFIG: linux_aarch64_cuda_compiler_version12.9kokkos_archVOLTA70mpiopenmpi
-            CONFIG_SHORT: linux_aarch64_cuda_compiler_version12.9k_hf563a0e4
             DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma8
             STORE_BUILD_ARTIFACTS: True
             UPLOAD_PACKAGES: True
